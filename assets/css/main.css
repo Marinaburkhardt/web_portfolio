@@ -29,6 +29,14 @@
 	font-family: 'Courier New', Courier, monospace;
 }
 
+.cardTextAlignment {
+	text-align: center;
+}
+
+.card-footer {
+	text-align: center;
+}
+
 /* Degrade experience */
 @keyframes gradient {
 	0% {
@@ -112,16 +120,16 @@ ul.icons li {
 	margin: 0;
 }
 
-/* Cert control */
-.wrapper > .inner {
-	margin: 0 auto;
-	width: 80rem;
-}
+	/* Cert control */
+	.wrapper > .inner {
+		margin: 0 auto;
+		width: 80rem;
+	}
 
-.wrapper.style {
-	background-color: #f2f2f2;
-	color: #a6a6a6;
-}
+	.wrapper.style {
+		background-color: #f2f2f2;
+		color: #a6a6a6;
+	}
 		
 /* Flexgrid - Biography section*/
 .grid-style {
