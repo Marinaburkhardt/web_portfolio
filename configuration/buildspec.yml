@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+    - echo Copying Webpage templates to S3 bucket...
+    - aws s3 cp --recursive . s3://${S3_BUCKET_NAME}/ --exclude '*' --include 'assets/*' --include 'images/*' --include 'index.html' # using Code Build environment variable
