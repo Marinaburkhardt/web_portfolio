@@ -4,7 +4,7 @@ Welcome to the repository for my web portfolio. Take a look to this rendered cod
 
 # 🏗 Architecture
 
-My webpage is hosted in AWS, and the following diagrams shows how it's implemented:
+My webpage is hosted in AWS, and the following diagram shows how it's implemented:
 
 <p align="center">
   <img src="./misc/Website.png"/>
@@ -12,7 +12,7 @@ My webpage is hosted in AWS, and the following diagrams shows how it's implement
 
 # 🚀 CI/CD
 
-This repository is part of a CI/CD, that allows the automatic implementation and deployment of this code once new code is found. This DevOps methodology is implemented as shown below in the architecture diagram:
+This repository is part of a CI/CD implementation that allows the automatic integration and deployment of this code, once new code is pushed to this repository. The architecture diagram shown below reflects the DevOps methodology implemented for this webpage:
 
 <p align="center">
   <img src="./misc/CICD.png"/>
